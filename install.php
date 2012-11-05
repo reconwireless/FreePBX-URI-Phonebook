@@ -12,7 +12,7 @@ if ( (isset($amp_conf['ASTVARLIBDIR'])?$amp_conf['ASTVARLIBDIR']:'') == '') {
 ?><br>Installing Default Configuration values.<br>
 <?php
 
-$sql ="INSERT INTO uribookoptions (engine, wgroundkey) ";
+$sql ="INSERT INTO uribookoptions (id, extension) ";
 $sql .= "               VALUES ('1200-vucme',        '')";
 $check = $db->query($sql);
 if (DB::IsError($check)) {
