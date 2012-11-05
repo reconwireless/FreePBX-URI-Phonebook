@@ -1,0 +1,21 @@
+<module>
+	<rawname>uribook</rawname>
+	<name>URI Extension Manager</name>
+	<version>0.0.0.1</version>
+	<license>GNU GPL2</license>
+	<type>setup</type>
+	<category>Other</category>
+	<menuitems>
+		<tidecity>URI Extension Manager</tidecity>
+	</menuitems>
+    <publisher>RECONWIRELESS</publisher> 
+	<description>
+                Allows you to easily add URI extensions
+        </description>
+	 <changelog>
+			*0.0.0.1 1st Module vuc.me support  
+			*0.0.0* placeholder for future development  
+        </changelog>
+	<info>https://github.com/reconwireless/FreePBX-URI-Phonebook</info>
+	<location>https://github.com/reconwireless/FreePBX-URI-Phonebook</location>
+ </module>
