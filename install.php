@@ -12,11 +12,7 @@ if ( (isset($amp_conf['ASTVARLIBDIR'])?$amp_conf['ASTVARLIBDIR']:'') == '') {
 ?><br>Installing Default Configuration values.<br>
 <?php
 
-$sql ="INSERT INTO uribookoptions (id, extension) ";
-$sql .= "               VALUES ('1200-vucme',        '')";
-$check = $db->query($sql);
-if (DB::IsError($check)) {
-        die_freepbx( "Can not create default values in `uribookoptions` table: " . $check->getMessage() .  "\n");
+
 }
 
 // Add dialplan include to asterisk conf file
